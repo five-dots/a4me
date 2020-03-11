@@ -1,0 +1,14 @@
+#+STARTUP: showall indent
+#+PROPERTY: header-args:R :results output :session *R:a4me*
+
+* a4me
+
+A collection of assertion functions for me.
+
+** Installation
+
+=a4me= is not available through CRAN. To install from github, use:
+
+#+begin_src R
+devtools::install_github("five-dots/a4me")
+#+end_src
